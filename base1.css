@@ -1,0 +1,228 @@
+/* body{
+    background-color: rgb(25, 43, 82);
+    color: white;
+    position: absolute;
+}
+#head{
+    margin-top: 0;
+    margin-left: 93px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    width: auto;
+}
+
+#head a{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+#login, #get, #post, #register{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 940px;
+    margin-left: 130px;
+    z-index: 1000;
+    margin-top: 100px;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+button{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+label, input{
+    padding: 10px;
+    margin: 15px;
+}
+input{
+    width: 400px;
+    border: none;
+    border-radius: 6px;
+    color: black;
+}
+table{
+    margin-top: 40px;
+} */
+
+
+
+
+body {
+    background-color: #FDF6F6;
+    color: #002C54;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+
+#head{
+    margin-top: 0;
+    margin-left: 200px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #002C54;
+    display: flex;
+    
+}
+
+nav ul a {
+    display: block;
+    color: #FDF6F6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: #C5001A;
+}
+
+#register, #login, #get, #post {
+    margin: 20px;
+    padding: 20px;
+    padding-top: 75px;
+    border: 1px solid #002C54;
+    border-radius: 10px;
+    background-color: #FDF6F6;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #002C54;
+}
+
+table {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #002C54;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #002C54;
+    color: #FDF6F6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C5001A;
+}
+
+#data {
+    list-style-type: none;
+    padding: 0;
+    color: #002C54;
+}
+
+#get, #post{
+    text-align: center;
+}
+
+
+
+
+/* :root {
+    --primary-bg-color: rgb(25, 43, 82);
+    --text-color: white;
+    --button-bg-color: aliceblue;
+    --content-bg-color: rgba(255, 255, 255, 0.2);
+    --button-radius: 10px;
+    --content-radius: 30px;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    position: absolute;
+}
+
+#head {
+    margin-top: 0;
+    margin-left: 93px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    width: auto;
+}
+
+#head a {
+    padding: 10px;
+    border: none;
+    border-radius: var(--button-radius);
+    background-color: var(--button-bg-color);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#login, #get, #post, #register {
+    padding: 30px;
+    background-color: var(--content-bg-color);
+    width: 940px;
+    margin-left: 130px;
+    z-index: 1000;
+    margin-top: 100px;
+    border-radius: var(--content-radius);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: var(--button-radius);
+    background-color: var(--button-bg-color);
+}
+
+label, input {
+    padding: 10px;
+    margin: 15px;
+}
+
+input {
+    width: 400px;
+    border: none;
+    border-radius: 6px;
+    color: black;
+}
+
+table {
+    margin-top: 40px;
+} */

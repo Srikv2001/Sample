@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete</title>
+    <link rel="stylesheet" href="base1.css">
+    <script src="base1.js"></script>
+</head>
+
+<body onload="getdata()">
+    <div id="head">
+        <nav>
+            <ul>
+                <a href="https://focusrtech.com/">FocusR</a>
+                <a href="#register">Go to register Section</a>
+                <a href="#login">Go to Login Section</a>
+                <a href="#get">Go to Get Tweet section</a>
+                <a href="#post">Go to Post tweet section</a>
+            </ul>
+        </nav>
+    </div>
+    <div id="second">
+        <div id="register">
+            <form onsubmit="register(), check()">
+                <h1>REGISTER SECTION</h1>
+                <table>
+                    <tr>
+                        <td><label for="uname">USERNAME :</label></td>
+                        <td><input id="uname" name="uname" placeholder="Enter the username:" autocomplete="off"
+                                required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">EMAIL :</label></td>
+                        <td><input id="email" name="email" type="email" placeholder="E-mail:" autocomplete="off"
+                                required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">PASSWORD :</label></td>
+                        <td><input id="password" name="password" type="password" placeholder="Enter the password:"
+                                autocomplete="off" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="conpass">CONFIRM PASSWORD :</label></td>
+                        <td><input id="conpass" name="conpass" type="password" placeholder="Enter the confirm password"
+                                autocomplete="off" required></td>
+                    </tr>
+                </table>
+                <button type="submit">REGISTER</button>
+            </form>
+        </div>
+
+        <div id="login">
+            <form onsubmit="login()">
+                <h1>LOGIN SECTION</h1>
+                <table>
+                    <tr>
+                        <td><label for="luname">USERNAME OR E-MAIL :</label></td>
+                        <td><input id="luname" name="luname" placeholder="Enter the username or e-mail:"
+                                autocomplete="off" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="lpassword">PASSWORD :</label></td>
+                        <td><input id="lpassword" name="lpassword" type="password" placeholder="Enter the password:"
+                                autocomplete="off" required>
+                        </td>
+                    </tr>
+
+                </table>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div id="get">
+            <div>
+                <h1>DATA FROM DATABASE</h1><br>
+                <ul id="data">
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="post">
+            <h1>POST SECTION</h1>
+            <div id="tbl">
+                <table>
+                    <tr>
+                        <td><label for="user">User :</label></td>
+                        <td><input type="text" id="user" name="user" placeholder="Enter the User's Name"
+                                autocomplete="off" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tweet">Tweets :</label></td>
+                        <td><input type="text" id="tweet" name="tweet" placeholder="Here goes your tweet"
+                                autocomplete="off" required></td>
+                    </tr>
+
+                </table>
+                <button type="submit" onclick="adddb(),getdata()">ADD TWEET</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
